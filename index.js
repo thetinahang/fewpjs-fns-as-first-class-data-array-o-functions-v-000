@@ -29,7 +29,9 @@ function walkHome(dogName, dogBreed) {
 }
 
 function unleashDog(dogName, dogBreed) {
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  const statement = `Unleash ${dogName} the ${dogBreed}`;
+  console.log(statement);
+  return statement;
 }
 
 const routine = [ wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
